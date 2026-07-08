@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Tarot of Learning QR card</title>
+  <desc id="desc">QR card for the Tarot of Learning 7-day reflection guide.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="0.48" stop-color="#eaf7f6"/>
+      <stop offset="1" stop-color="#d8f0ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="18%" r="68%">
+      <stop offset="0" stop-color="#fec566" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#fec566" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#1a8586" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1350" rx="64" fill="url(#bg)"/>
+  <rect width="1080" height="560" fill="url(#glow)"/>
+  <circle cx="160" cy="180" r="8" fill="#fec566" opacity="0.8"/>
+  <circle cx="900" cy="250" r="7" fill="#50c2c0" opacity="0.65"/>
+  <circle cx="840" cy="1040" r="9" fill="#fec566" opacity="0.7"/>
+
+  <text x="88" y="104" font-family="Kanit, Trebuchet MS, sans-serif" font-size="30" font-weight="600" fill="#1a8586" letter-spacing="4">WIZARDS OF LEARNING</text>
+  <text x="88" y="198" font-family="Kanit, Trebuchet MS, sans-serif" font-size="68" font-weight="700" fill="#1a8586">Tarot of Learning</text>
+  <text x="88" y="258" font-family="Kanit, Trebuchet MS, sans-serif" font-size="42" font-weight="600" fill="#d78600">สแกนเพื่อเริ่มไกด์ 7 วัน</text>
+  <text x="88" y="314" font-family="Kanit, Trebuchet MS, sans-serif" font-size="29" font-weight="400" fill="#3f6e6d">เปิดไพ่วันละ 1 ใบ แล้วเปลี่ยน insight เป็น action เล็ก ๆ</text>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="390" width="924" height="820" rx="46" fill="rgba(255,255,255,0.82)" stroke="#50c2c0" stroke-opacity="0.35" stroke-width="3"/>
+  </g>
+
+  <image href="../images/tarot-learning-box.png" x="110" y="442" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="572" y="454" width="382" height="382" rx="34" fill="#ffffff" stroke="#1a8586" stroke-opacity="0.2" stroke-width="4"/>
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtAAAALQAQMAAACDmdXfAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFWElEQVR4nO3cQY7jOAxAUQJZ9LKP4KP4aPbRfBQfIctaGOCUJZKinDSmp5NBK8Dnply285QVIYpSRAiCIAiCIP5eaAr5oft572e9Vl3r9Xfsshzf11t87rzWr3SdHWhoaOg30F/+8hyc3Z8q7cRNH+J8p8TWO9DQ0NCj0+XxvdLfybO+2hLsdv6ZXCvX662+Lz7k1jvQ0NDQn0Pbx1ocIn5fD582xvDllTLMgwMNDQ39f9Ge+WIuqJVr99u88IkDDQ0NPTYtTwmRydf58vyvPPbEe352OR4daGho6LHpFLXaPXxtr1W1v3M/O9DQ0NBD013YOl9ew7vX4XNS3f2+J97fCWhoaOj/Tk9ntopMJrbd5KvSVuHmrGYVcZ/tfMg+80FDQ0OPSNf1uSNdq3Otk2GV7E8fZk1fq1zPRncBDQ0NPTK9pi3G1s/VlCS9wlX1Nb/rOt8cny0ONDQ09Ot0l8lsbnf3V9cYXuI0RLxj4bTUDAoNDQ39AXSJtMe3EdZisGitB/Uk7PctbI3wEtDQ0NDD0V7JlmtV9eo1Tw8bsVkSzp2POqRXytDQ0NAfQFvE4zXOfkmXJC3BdoW0trXAFvN1Vws0NDT0n9OHc5PP7Urka49oVait89XLVh1DQ0NDfwC9n39bh+OMrd5f0vkwrQm2zhHT1pP1lwkWGhoaelC6TQ+32HoS63ne502JVGJLskRfOHrBS7+ECA0NDf0KLV7htmj7gyPDRRasmU98SPFjqsXRaMZCQ0NDD0w37jLMV6t866NoQ1zmgkdzVskBDQ0NPS69py3De58kVaOqtetLRazdz9RJ/irQ0NDQo9Ll1TWd61+Obsh8v21DSV+rxGzTzPhNAGhoaOj30NFKsNjS3K7NC1scPi+UbkgLaGho6MHpEpYM05yvIyx5tk13Z1yqYGndDmhoaOjBaetktK6GJDqSakwnM1Hvq+a+sKpCQ0NDv4PuqtSy0BanHjQd0CpD9rRXuznzddUuNDQ09KC0RFuhxH4dUn2YElu/Me+MJX16jeGhoaGhP4CO9bz8eIltxSX69bzNhV9UwdDQ0NDD0kaoc1L7vPKjFcliU8g4Jat5LdAi/1gnNDQ09Ot0ncPFAX2jLbpXby07aj4HdkvZMSpfaGho6IHpvLbXhvH1vHQOrH2VfniPp80TaGho6CHpEjkZ2g8xncRip17PWOOr7NftJvHL6WtMOaGhoaHfQ58x12xn879G56p2605MVC4OaE3+DjQ0NPTYtM/hxIk1/o1K1gmjtT+U/1gRQ0NDQ38Avag/nmIrcXQstr7bEefDZn2Itdt6Ag0NDT0uPdX7W72xPDnRmopnH/J+mX5KnCGboaGhod9Ei98qsdqDlOHEKlnLdnv6yRJNDdjpcesJNDQ09JC01oR5j2sR+/049Y6FWmO2DZl+V67Rcq12oaGhocekJZ1ubQlTY6oYnY813tfulKym6WefVKGhoaFfpDWymnjl649jG0qjU7a7DGlfcYsXoaGhoceki1Mez4bmkxExF7TYUlLdjLtpH9DQ0NCj013E2p5XrzH8fv6Nyrdb20snY9enKjQ0NPRgdE6H7fHzvm0mrJBu3Y7+DBk0NDT0y3RkuDnW52INb0074yRXsnnriapeh4SGhoYenS6P77XpusfpVpv/tRMQNcqHlki2fawxJDQ0NPQn0UveYpI22knuath1SbzRF9Z/S6rQ0NDQf05rv6CW2hB5Aa6LOLK6e0sCGhoaenja4nn1WiKS59a1Ier7tunusWqGhoaGHpVOUW4s/eH7qF4XbVNIjXNj+WSEXH5pHRoaGnpQmiAIgiAI4m/EP18lR6P2KUxiAAAAAElFTkSuQmCC" x="602" y="484" width="322" height="322"/>
+
+  <text x="118" y="894" font-family="Kanit, Trebuchet MS, sans-serif" font-size="36" font-weight="700" fill="#1a8586">ใช้คู่กับสำรับจริงได้ทันที</text>
+  <text x="118" y="942" font-family="Kanit, Trebuchet MS, sans-serif" font-size="27" font-weight="400" fill="#3f6e6d">เหมาะสำหรับ journaling, self-reflection และการตั้งเป้าหมายการเรียนรู้</text>
+  <rect x="118" y="992" width="844" height="92" rx="46" fill="#1a8586"/>
+  <text x="540" y="1053" text-anchor="middle" font-family="Kanit, Trebuchet MS, sans-serif" font-size="34" font-weight="700" fill="#ffffff">SCAN TO START THE 7-DAY GUIDE</text>
+  <text x="540" y="1160" text-anchor="middle" font-family="Kanit, Trebuchet MS, sans-serif" font-size="24" font-weight="400" fill="#3f6e6d">wollab.github.io/wol-product-landing-pages</text>
+  <text x="540" y="1240" text-anchor="middle" font-family="Kanit, Trebuchet MS, sans-serif" font-size="28" font-weight="600" fill="#1a8586">Magic Your Communication, Make Learning Matter.</text>
+</svg>
