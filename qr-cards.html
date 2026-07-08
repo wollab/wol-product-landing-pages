@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WoL Product QR Cards</title>
+  <meta name="description" content="QR cards สำหรับ Tarot of Learning และ Fish Farmer vs Alien Species โดย Wizards of Learning">
+  <link rel="canonical" href="https://wollab.github.io/wol-product-landing-pages/qr-cards.html">
+  <meta property="og:title" content="WoL Product QR Cards">
+  <meta property="og:description" content="QR cards พร้อมชื่อสินค้า รูปกล่อง และคำโปรยสั้น ๆ สำหรับใช้กับสินค้า WoL">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wollab.github.io/wol-product-landing-pages/qr-cards.html">
+  <link rel="preload" href="./assets/fonts/Kanit-Medium.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./assets/fonts/Kanit-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .qr-preview-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2rem;
+      align-items: start;
+      margin-bottom: 5rem;
+    }
+    .qr-preview-card {
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 1rem;
+    }
+    .qr-preview-card img {
+      width: 100%;
+      border-radius: 18px;
+      background: #fff;
+    }
+    .qr-preview-card h2 {
+      font-size: 1.45rem;
+      margin: 1rem 0 0.35rem;
+    }
+    .qr-preview-card p {
+      color: var(--ink-soft);
+      margin: 0 0 1rem;
+    }
+    .qr-preview-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    @media (max-width: 780px) {
+      .qr-preview-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="product-page">
+  <div class="page-shell">
+    <header class="site-header product-header">
+      <a class="brand" href="./index.html" aria-label="Wizards of Learning Home">
+        <img src="./assets/images/wol-logo.png" alt="Wizards of Learning logo">
+        <div>
+          <span class="brand-kicker">Wizards of Learning</span>
+          <strong>QR Cards</strong>
+        </div>
+      </a>
+      <nav class="site-nav" aria-label="QR cards navigation">
+        <a href="./tarot-of-learning.html">Tarot</a>
+        <a href="./fish-farmer.html">Fish Farmer</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="product-hero section">
+        <div class="product-copy">
+          <span class="product-label">Product QR Cards</span>
+          <h1>QR cards สำหรับแปะในสินค้า<br>และภาพขายของ WoL</h1>
+          <p class="product-lead">
+            แต่ละภาพมีชื่อสินค้า รูปกล่อง คำโปรยสั้น ๆ และ QR code ที่พาผู้ซื้อไปยัง companion guide ของสินค้านั้นทันที
+          </p>
+        </div>
+      </section>
+
+      <section class="section qr-preview-grid">
+        <article class="qr-preview-card">
+          <img src="./assets/qr-cards/tarot-7-day-guide-qr-card.svg" alt="Tarot of Learning 7-day guide QR card">
+          <h2>Tarot of Learning</h2>
+          <p>สแกนเพื่อเริ่มไกด์ 7 วัน</p>
+          <div class="qr-preview-actions">
+            <a class="button button-primary" href="./assets/qr-cards/tarot-7-day-guide-qr-card.svg" download>ดาวน์โหลด SVG</a>
+            <a class="button button-secondary" href="./tarot-7-day-reflection-guide.html">เปิดปลายทาง QR</a>
+          </div>
+        </article>
+
+        <article class="qr-preview-card">
+          <img src="./assets/qr-cards/fish-farmer-debrief-qr-card.svg" alt="Fish Farmer debrief guide QR card">
+          <h2>Fish Farmer</h2>
+          <p>สแกนเพื่อเปิดคำถามหลังเล่น</p>
+          <div class="qr-preview-actions">
+            <a class="button button-primary" href="./assets/qr-cards/fish-farmer-debrief-qr-card.svg" download>ดาวน์โหลด SVG</a>
+            <a class="button button-secondary" href="./fish-farmer-debrief-guide.html">เปิดปลายทาง QR</a>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
