@@ -53,6 +53,55 @@
   border-color: rgba(36, 83, 59, .2);
 }
 .farm-page .feature-rail article > span { color: var(--farm-rust); }
+.royal-principles {
+  padding-inline: clamp(20px, 4vw, 56px);
+  border-radius: 32px;
+  background:
+    linear-gradient(135deg, rgba(255, 250, 240, .96), rgba(239, 225, 189, .94)),
+    var(--farm-cream);
+  border: 2px solid rgba(139, 62, 37, .2);
+}
+.royal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 30px;
+}
+.royal-grid article {
+  position: relative;
+  padding: clamp(22px, 3vw, 34px);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, .78);
+  border-top: 6px solid var(--farm-green);
+  box-shadow: 0 14px 32px rgba(59, 43, 23, .08);
+}
+.royal-grid article:nth-child(2),
+.royal-grid article:nth-child(4) { border-top-color: var(--farm-rust); }
+.royal-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 46px;
+  height: 34px;
+  margin-bottom: 12px;
+  border-radius: 999px;
+  background: var(--farm-green);
+  color: #fff;
+  font-weight: 700;
+}
+.royal-grid article:nth-child(2) .royal-number,
+.royal-grid article:nth-child(4) .royal-number { background: var(--farm-rust); }
+.royal-grid h3 { margin: 0 0 10px; color: var(--farm-dark); }
+.royal-grid p { margin: 0 0 12px; }
+.royal-grid strong { color: var(--farm-rust); }
+.royal-summary {
+  margin: 22px 0 0;
+  padding: 18px 22px;
+  border-radius: 18px;
+  background: var(--farm-green);
+  color: #fff;
+  font-weight: 700;
+}
 .farm-experience,
 .farm-concept,
 .farm-audience { border-radius: 32px; }
@@ -94,6 +143,7 @@
 .farm-page button:focus-visible { outline: 3px solid #f0b429; outline-offset: 4px; }
 
 @media (max-width: 880px) {
+  .royal-grid { grid-template-columns: 1fr; }
   .selling-sheet-section { grid-template-columns: 1fr; }
   .farm-stamp { right: 8px; bottom: 12px; }
 }
