@@ -149,6 +149,11 @@
 }
 
 @media (max-width: 560px) {
+  .farm-page .product-label {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
   .farm-cover-card { border-radius: 22px; box-shadow: 12px 14px 0 rgba(36, 83, 59, .13); }
   .farm-stamp { position: static; display: inline-block; margin-top: 12px; }
   .source-links { flex-direction: column; }
